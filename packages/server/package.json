@@ -1,0 +1,19 @@
+{
+  "name": "@inquire/server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot run src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.0",
+    "@inquire/shared": "workspace:*",
+    "hono": "^4.3.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.5",
+    "bun-types": "^1.1.0"
+  }
+}
