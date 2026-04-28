@@ -1,0 +1,1 @@
+-keep class com.ahcog.floatapp.data.db.** { *; }
