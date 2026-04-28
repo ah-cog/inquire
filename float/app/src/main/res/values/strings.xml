@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Float</string>
+    <string name="save_to_float">Save to Float</string>
+    <string name="saved_to_float">Saved to Float</string>
+    <string name="channels">Channels</string>
+    <string name="manage_channels">Manage Channels</string>
+    <string name="add_note">Add a note…</string>
+    <string name="open_float">Open Float</string>
+    <string name="save">Save</string>
+    <string name="search_hint">Search saved items…</string>
+    <string name="empty_timeline">Nothing saved yet.
+Share something to get started!</string>
+    <string name="no_channels_yet">No channels yet.
+Tap + to create one.</string>
+    <string name="add_channel">Add Channel</string>
+    <string name="edit_channel">Edit Channel</string>
+    <string name="delete_channel">Delete Channel</string>
+    <string name="delete_channel_confirm">Delete “%1$s”? Items tagged with it won’t be removed.</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="delete_item_confirm">Remove this item from your Float timeline?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="all">All</string>
+    <string name="from_app">from %1$s</string>
+    <string name="shared_item">Shared item</string>
+    <string name="channel_name_hint">Channel name</string>
+    <string name="emoji_hint">Emoji (optional)</string>
+</resources>

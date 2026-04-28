@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Declares Float as a direct-share target.
+    Channel shortcuts (ShortcutInfoCompat) published at runtime must carry
+    category com.ahcog.floatapp.category.CHANNEL to appear in the share sheet.
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <share-target android:targetClass="com.ahcog.floatapp.ui.share.ShareActivity">
+        <data android:mimeType="text/plain" />
+        <data android:mimeType="text/html" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+        <category android:name="com.ahcog.floatapp.category.CHANNEL" />
+    </share-target>
+</shortcuts>
